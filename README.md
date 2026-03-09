@@ -1,22 +1,23 @@
-# homebrew-slackline
+# homebrew-tap
 
-Homebrew tap for [slackline](https://github.com/co42/slackline) - a read-only Slack CLI for AI agents.
+Homebrew tap for personal CLI tools.
 
 ## Install
 
 ```bash
-brew install co42/slackline/slackline
-```
-
-Or tap first:
-
-```bash
-brew tap co42/slackline
+brew tap co42/tap
 brew install slackline
+brew install garmin
 ```
 
-## Update
+Or directly:
 
 ```bash
-brew upgrade slackline
+brew install co42/tap/slackline
+brew install co42/tap/garmin
 ```
+
+## Available formulas
+
+- **[slackline](https://github.com/co42/slackline)** — Read-only Slack CLI for AI agents
+- **[garmin](https://github.com/co42/garmin-cli)** — Garmin Connect CLI
