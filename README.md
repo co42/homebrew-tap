@@ -19,5 +19,5 @@ brew install co42/tap/garmin
 
 ## Available formulas
 
-- **[slackline](https://github.com/co42/slackline)** — Read-only Slack CLI for AI agents
+- **[slackline](https://github.com/co42/slackline)** — Slack CLI
 - **[garmin](https://github.com/co42/garmin-cli)** — Garmin Connect CLI
