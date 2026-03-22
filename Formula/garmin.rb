@@ -7,16 +7,16 @@ class Garmin < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/co42/garmin-cli/releases/download/v1.5.0/garmin-v1.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f6fdcf37de7624348c1dcdf9c32b6b0faa51e258d3fc07b67ba0a7f582ff69e4"
+      sha256 "bd81236f22b504b9bb5dd8ea38ba94ef085d67bb95171f4e31b666e1b3961bcc"
     else
       url "https://github.com/co42/garmin-cli/releases/download/v1.5.0/garmin-v1.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6fa4a9053318070c109acfdaf9c25729523027c7d462d643d08035ce9ef55ea7"
+      sha256 "a7a12228bf7e4141435fbab466debce9938522c2508859fe643daa463cbe1654"
     end
   end
 
   on_linux do
     url "https://github.com/co42/garmin-cli/releases/download/v1.5.0/garmin-v1.5.0-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "3a92e63f53e4d99dc3603e826babb6234441f3633aab4bc285a8d12f2d5b1ffb"
+    sha256 "afa2e820177aeb20b29e791868a47e714cd46ddaffa162915d774b74685a15bb"
   end
 
   def install
