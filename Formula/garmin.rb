@@ -1,22 +1,22 @@
 class Garmin < Formula
   desc "Garmin Connect CLI"
   homepage "https://github.com/co42/garmin-cli"
-  version "1.6.0"
+  version "1.7.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/co42/garmin-cli/releases/download/v1.6.0/garmin-v1.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "661f5100db76e86cba03e637817e6dce0eb29d17d7aa3ad080eb7b6609c2787a"
+      url "https://github.com/co42/garmin-cli/releases/download/v1.7.0/garmin-v1.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "483c71a706f0dc82c6fd98ef67eefbf1ee591040d37dd229a735a53980937fa0"
     else
-      url "https://github.com/co42/garmin-cli/releases/download/v1.6.0/garmin-v1.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2bd969feefc1f9d92a54a7fab9fea2c7c211ebbfd37946f4291ff9691c8790db"
+      url "https://github.com/co42/garmin-cli/releases/download/v1.7.0/garmin-v1.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8f8f270e07305a3d107bf88403ec1aca36b127fd05d8bb8c275439f263269c3d"
     end
   end
 
   on_linux do
-    url "https://github.com/co42/garmin-cli/releases/download/v1.6.0/garmin-v1.6.0-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "54f9a17050e90beecd2c2fd9d2d5540e60aa695038f479d3aad765e8b0ea308d"
+    url "https://github.com/co42/garmin-cli/releases/download/v1.7.0/garmin-v1.7.0-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "bdbe4aa0ad175f46a93a35c02813e25e84efc34cad148cf0027334db6614338f"
   end
 
   def install
