@@ -1,22 +1,22 @@
 class Garmin < Formula
   desc "Garmin Connect CLI"
   homepage "https://github.com/co42/garmin-cli"
-  version "1.9.2"
+  version "1.9.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/co42/garmin-cli/releases/download/v1.9.2/garmin-v1.9.2-aarch64-apple-darwin.tar.gz"
-      sha256 "b0ac1aba41474d0e561bef4ec7ad7cf2362b8761a9f72e9a76a9db14f2edc06a"
+      url "https://github.com/co42/garmin-cli/releases/download/v1.9.3/garmin-v1.9.3-aarch64-apple-darwin.tar.gz"
+      sha256 "f89a962eb93752930640a8089e595f6b931cf393860762a0b94de74cf311541a"
     else
-      url "https://github.com/co42/garmin-cli/releases/download/v1.9.2/garmin-v1.9.2-x86_64-apple-darwin.tar.gz"
-      sha256 "cf89547e7090d231c6814bd89dc3c52d44f770502dd459714fe4da5b2953bd04"
+      url "https://github.com/co42/garmin-cli/releases/download/v1.9.3/garmin-v1.9.3-x86_64-apple-darwin.tar.gz"
+      sha256 "09734be3383da626925df097cb01c84ef4f5cb7279361ba750795708ea539fe7"
     end
   end
 
   on_linux do
-    url "https://github.com/co42/garmin-cli/releases/download/v1.9.2/garmin-v1.9.2-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "103d3de465d98a393e27cc9ca7a3dd5654e5f576b3b31dfda1a8852e1036c68c"
+    url "https://github.com/co42/garmin-cli/releases/download/v1.9.3/garmin-v1.9.3-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "e7ed335f0f2f4b3c68bd8766088ff995cdee0ae1b5629a20d8df158cda5007d2"
   end
 
   def install
